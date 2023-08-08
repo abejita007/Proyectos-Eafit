@@ -1,0 +1,110 @@
+.body-sing{
+  box-sizing: border-box;
+}
+
+.sing-up{
+  display: flex;
+  height: 700px;
+  width: 900px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.info{
+  background-image: url(/assets/img/señor-moliendo-cafe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 150px 50px;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.texto-1{
+  color: #F0F0F0;
+  text-transform: capitalize;
+  font-size: 40px; /*titulo del titulo de bienvenida*/
+  margin-bottom: 30px;
+}
+
+.info hr{
+  width: 50px;
+  border: 4px solid #f0f0f0;
+  margin-left: 125px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.texto-2{
+  color:#F0F0F0;
+  font-size: 17px;/*contenido de la parte de la informacion*/
+}
+
+.formulario{
+  padding: 50px 80px;
+  width: 50%;
+  text-align: center;
+  background-color: #FFDA9E;
+  border-radius: 0 10px 10px 0;
+}
+
+.formulario h2{
+  color: #ff9800;
+  font-size: 40px; /*titulo del LOGIN*/
+  margin-bottom: 70px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column; /*se puede cambiar el tamaño de los inputs*/
+}
+
+.input-1{
+  outline:none;
+  border-color:#ff9800;
+  border-width: 0 0 0 5px;
+  border-style: solid;
+  padding: 13px 5px;
+  margin-bottom: 20px;
+
+}
+
+.inputs a{
+  color: #ff9800;
+  text-decoration: none;
+  font-size: 15px;/*tamaño de la letra "olvidaste tu contraseña?"*/
+  display: inline;
+}
+
+
+
+.submit{
+  background-color: #ff9800;
+  padding: 15px;
+  border: 0;
+  font-size: 20px; /*tamaño de la letra que esta dentro del botton*/
+  text-transform: capitalize;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.inicia-sesion{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.inicia-sesion a{
+  margin-top: 15px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.inicia-sesion p{
+  font-size: 15px;
+  margin-left: 30px;
+}

@@ -1,0 +1,31 @@
+<div class="body-sing">
+
+  <div class="sing-up">
+      <div class="info">
+          <h2 class="texto-1">Bienvenidos a esta comunidad</h2>
+          <hr>
+
+          <p class="texto-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, cupiditate?</p>
+      </div>
+
+      <div class="formulario">
+          <h2>Registrarse</h2>
+          <div class="inputs">
+              <input type="text" [(ngModel)]="login.nombre" class="input-1" placeholder="ingresa tu nombre">
+              <input type="email" [(ngModel)]="login.user" class="input-1" placeholder="ingresa tu correo">
+              <input type="password" [(ngModel)]="login.pass" class="input-1" placeholder="ingresa tu contraseña">
+              <input type="password" [(ngModel)]="login.passw"class="input-1" placeholder="confirmar tu contraseña">
+
+
+              <input type="submit" value="Registrarse" class="submit" (click)="agregar()">
+
+              <div class="inicia-sesion">
+                  <p>ya tienes una cuenta?</p>
+                  <a href="../login">iniciar sesion</a>
+              </div>
+            </div>
+
+          </div>
+
+  </div>
+  </div>

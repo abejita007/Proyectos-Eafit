@@ -1,0 +1,100 @@
+.cursos-aficionados{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.estado_curso{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.enlace_curso{
+  background-color: #ff9800;
+  padding: 15px;
+  border: 0;
+  font-size: 15px; /*tamaño de la letra que esta dentro del botton*/
+  text-transform: capitalize;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.enlace_curso:hover{
+  border: 0.1em solid #21201E;
+}
+.cursos-aficionados h2{
+  margin: 20px 0;
+
+}
+
+.cursos-aficionados p{
+  margin: 0;
+  height: 110px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.size-cards-aficionados{
+  width: 300px;
+  height: 100%;
+  padding: 20px ;
+}
+
+.img-card{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.texto-3{
+  color: #F0F0F0;
+  font-size: 32px;
+  text-align: center;
+}
+
+.texto-4{
+  color: #F0F0F0;
+  font-size: 18px;
+}
+
+.bg-azulito{
+  background: #7F9DD1;
+  padding: 20px;
+}
+
+.bg-azulito p{
+  color: #000;
+}
+
+.bg-rojito{
+  background: #D85F5F;
+  padding: 20px;
+}
+
+.bg-amarillito{
+  background: #F7D48E;
+  padding: 20px;
+}
+
+.bg-verdecito{
+  background: #77DD77;
+  padding: 20px;
+}
+.curso-tl{
+  margin-left: 30%;
+}
+.texto-1{
+  color: #F0F0F0;
+  text-transform: capitalize;
+  font-size: 40px; /*titulo del titulo de bienvenida*/
+  margin-bottom: 30px;
+}

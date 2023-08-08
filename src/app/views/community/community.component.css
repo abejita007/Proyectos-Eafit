@@ -1,0 +1,190 @@
+.texto-1{
+  color: #F0F0F0;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 40px; /*titulo del titulo de bienvenida*/
+  margin-bottom: 10px;
+}
+.sesion {
+  text-align: center;
+}
+.sesion__foros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sesion__foros .foros__elementos {
+  border-radius: 0.2em;
+  background-color: #E8F6F3;
+  width: 50%;
+  margin-top: 30px;
+}
+.sesion__foros .foros__elementos img {
+  width: 100%;
+  height: 190px;
+}
+.sesion__foros .foros__elementos h3 {
+  font-size: 30px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  background-color: #D4EFDF;
+}
+.sesion__foros .foros__elementos a {
+  background-color: #ff9800;
+  padding: 15px;
+  border: 0;
+  font-size: 15px; /*tamaño de la letra que esta dentro del botton*/
+  text-transform: capitalize;
+  border-radius: 10px;
+  width: 85px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: auto;
+}/*# sourceMappingURL=Estilo_sass.css.map */
+.sesion__foros .foros__elementos a:hover{
+  border: 0.1em solid #21201E;
+}
+
+
+.blog-1{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+  gap: 5px;
+  margin-top: 5%;
+
+}
+
+.contenedor{
+  background-color: #FFDA9E;
+  width: 600px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.contenedor-2{
+  width: 560px;
+  height: auto;
+  background-color: #FFDA9E;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px 20px 30px 20px;
+  gap: 20px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.comentario{
+  background-color: #FFDA9E;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 20px;
+  border-radius: 20px;
+  color: #000000;
+}
+
+.contenedor-agg__com{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagen-usuario{
+  width: 50px;
+  height: 80px;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.imagen-usuario img{
+  width: 50px;
+
+}
+
+
+.input-com{
+  width: 500px;
+  height: 100px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 5px;
+}
+
+#nuevoComentario{
+  outline: none;
+  border: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #000000;
+  border-bottom: 2px solid #f0f0f0;
+  transition-duration: 200ms;
+}
+
+#nuevoComentario::placeholder{
+  color: #000000;
+}
+
+#nuevoComentario:focus{
+  border-bottom: 2px solid #F0F0F0;
+}
+
+.btn-agg{
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 5px;
+
+}
+
+.btn-agg button{
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: 1px solid #F0F0F0;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.close{
+  font-size: 12px;
+  position: absolute;
+  right: 150px;
+  width: 20px;
+  z-index: 20;
+  transition-duration: 200ms;
+  display: block;
+  cursor: pointer;
+  color: #F0F0F0;
+}

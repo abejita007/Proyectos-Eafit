@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background: #000000;
+  overflow-x:hidden;
+}
+
+a{
+  color: #F0F0F0;
+  text-decoration: none;
+  display: block;
+}
+
+.linea{
+  width: 100%;
+  height: 2px;
+  background-color: #f0f0f0;
+  margin-bottom: 1%;
+}
+
+.linea-abajo{
+  width: 100%;
+  height: 2px;
+  background-color: #f0f0f0;
+  margin-bottom: 1%;
+  margin-top: 5%;
+}

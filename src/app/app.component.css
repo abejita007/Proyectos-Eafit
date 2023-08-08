@@ -1,0 +1,140 @@
+header{
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 70px;
+  padding: 10px;
+  height: 80px;
+}
+
+.header h2{
+  font-size: 45px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.logo img{
+  height: 80px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+nav a{
+  padding: 20px 30px;
+  font-weight: 600;
+}
+
+nav a:hover{
+  color:#000000;
+  background-color: #ff9800;
+  border-radius: 20px;
+}
+
+.header nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav ul li ul{
+  position: absolute;
+  background-color: #000000;
+  border-radius: 0 20px 20px;
+
+}
+
+.header nav ul li ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.header nav ul li:hover > ul{
+  display: block;
+}
+
+.header nav ul li ul li{
+  width: 150px;
+  position: relative;
+}
+
+.header nav ul li:hover > ul{
+  display: block;
+}
+
+.header nav ul li ul{
+  display: none;
+}
+
+.header nav a{
+  margin-right: 0;
+}
+
+
+.ul-li__img{
+  height: 30px;
+  border-radius: 20px;
+  padding: 15px 20px;
+
+}
+/* lineas divisoras */
+.linea{
+  width: 100%;
+  height: 2px;
+  background-color: #f0f0f0;
+  margin-bottom: 1%;
+}
+
+.linea-abajo{
+  width: 100%;
+  height: 2px;
+  background-color: #f0f0f0;
+  margin-bottom: 1%;
+  margin-top: 5%;
+}
+
+/* pie de pagina */
+.pie a img{
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  padding-left: 70%;
+}
+
+
+.pie{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 20%;
+  margin-right: 20px;
+  margin-bottom:5%;
+  margin-top: 2%;
+  justify-content: space-between;
+}
+
+.pie div {
+  margin-left: 30px;
+  width: 10%;
+
+}
+
+.pie div a{
+  color: #f0f0f0;
+  padding-bottom: 10px;
+  font-size: 20px; /*tamaño de la letra del pie de pagina*/
+
+}
+
+.pie a:hover{
+  color: #00FFFF;
+}
+
+.pie div img{
+  margin-right: 30px;
+}

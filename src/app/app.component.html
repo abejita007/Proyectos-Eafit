@@ -1,0 +1,43 @@
+<header class="header">
+  <a routerLink="home" class="logo"><img src="../assets/img/logo plural.webp" alt="logo-plural"><h2 class="nombre-empresa">Plural</h2></a>
+ 
+  <nav>
+  <ul>
+      <li><a routerLink="home">Inicio</a></li>
+      <li><a routerLink="about">Sobre nosotros</a></li>
+      <li><a routerLink="course">Cursos</a>
+          <ul>
+              <li><a routerLink="amateur">Aficionado</a></li>
+              <li><a routerLink="begginer">Principiantes</a></li>
+              <li><a routerLink="intermediate">Intermedio</a></li>
+              <li><a routerLink="expert">Expertos</a></li>
+          </ul>
+      </li>
+      <li><a routerLink="community">Comunidad</a></li>
+      <li><a routerLink="requirement">Requisitos</a></li>
+      <li><a routerLink="sing-up" class="ul-li__img" th:href="@{/login}"><img src="../assets/img/login.png" alt="" width="30px"></a></li>
+  </ul>
+  </nav>
+</header>
+<div class="linea"></div>
+<router-outlet></router-outlet>
+
+<div class="linea-abajo"></div>
+
+
+<footer class="pie">
+  <div>
+      <a href="https://www.instagram.com/pluralcafe.fr/" target="_blank"><img src="../assets/img/instagram (1).png" alt=""></a>
+      <a href="https://www.facebook.com/Pluralcafe" target="_blank"><img class="facebook" src="../assets/img/facebook.png" alt=""></a>
+  </div>
+
+  <!-- <button>Idiomas</button> -->
+
+  <div class=>
+      <a href="">Help</a>
+      <a href="">Contactanos</a>
+      <a href="">Noticias</a>
+      <a href="">Profesores</a>
+      <a href="../login">Cerar sesión</a>
+  </div>
+</footer>

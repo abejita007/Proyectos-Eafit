@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pluralcafe-5fc56": {
+      "hosting": {
+        "pagina-web": [
+          "cafe-web-app-12648"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pluralcafe-5fc56"
+  }
+}

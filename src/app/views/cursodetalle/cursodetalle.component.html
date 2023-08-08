@@ -1,0 +1,49 @@
+
+<div>
+
+  <div class="">
+      <!--<h2 class="texto-1 curso-tl">Cursos para</h2>-->
+  </div>
+
+  <section class="cursos-aficionados" >
+      <div class="size-cards-aficionados">
+          <h2 class="texto-3" >CURSO CATACIÓN DE CAFÉ</h2>
+          <br>
+          <div  class="bg-verdecito-detalle">
+              <img src="../assets/img/mujertomandocafe.jpg" alt="mujer tomando cafe" class="img-card">
+              <p class="texto-4">Conviértete en un experto catador de café</p>
+             <div class="descripcion_curso">
+              <p>Este curso te ayudará a comprar o vender buen café, aprender más sobre su calidad, así como las caractaerísticas que hacen un buen café, como la acidez, amargura, cuerpo, sabor y aroma. Es la diferencia entre tener clientes contentos y no tenerlos.
+              La catación sirve para comprar café, para saber qué está mal con tu café, para agregarle valor o simplemente para crear buenas bebidas en una cafetería.</p>
+             </div>
+
+             <div class="modulo-curso">
+              <br><br>
+              <p class="text-5">En este Curso de Catación de Café aprenderás:
+                <br><br> - Qué es y cómo se usa la rueda de la catación. <br>- Qué es y cómo se usa la rueda de la catación.
+                <br> - Reconocer cuándo un café es: bueno, malo, defectuoso, frutal, especiado, entre otros.
+                <br> - Distinguir los ácidos y tipos de dulzor en el café.
+                <br> - Cómo hacer una catación correcta para controlar la calidad de tu café
+              </p>
+             </div>
+             <div class="datos-docente" *ngIf="!paidFor">
+              <br>
+              <p class="texto-6">Docente encargado: Mauricio Perez Ruiz - profesional en barrismo
+            <br>Inscripciones hasta: 11 de agosoto de 2023
+            <br>Fecha inicio: 15 de agosto de 2023
+            <br>Modalidad: virtual
+            <br>Tarifa: 54.000
+            <br>Duración: 45 horas</p>
+             </div><br>
+             <br>
+             <div *ngIf=paidFor>
+              <h1 style="color:red"> Se ha registrado exitosamente a nuestro curso</h1>
+              <h1 style="color:red">Por favor este pendiente de su correo para más información. </h1>
+            </div>
+             <div [hidden]="paidFor" #paypal >
+          
+             </div>
+          </div>
+      </div>
+  </section>
+</div>
